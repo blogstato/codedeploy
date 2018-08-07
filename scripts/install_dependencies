@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+if which apache2 > /dev/null ; then
+	exit 0
+fi
+
+apt-get install apache2
